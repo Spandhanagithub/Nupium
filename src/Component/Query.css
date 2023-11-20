@@ -1,0 +1,27 @@
+/* Query.css */
+
+/* Style for the container of the Query component */
+.query-component {
+  position: absolute;
+  top: 100%;
+  left: 52%;
+  width: 700px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(252, 186, 100, 0.8); /* Use rgba for a semi-transparent background */
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0,); /* Use rgba for a shadow with transparency */
+}
+
+/* Style for the "Query NOW" button */
+.now1 {
+  margin-bottom: 30px;
+  background-color: white;
+  color: rgb(248, 248, 248);
+  background-color:  rgba(252, 186, 100, 0.8);
+  margin-left: 300px;
+  font-weight: bolder;
+  border:rgb(0, 195, 255);
+}
+
+/* Additional styles for your pop-up form can be defined here if needed */

@@ -1,0 +1,169 @@
+
+.pop {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: normal;
+  }
+  
+  
+  .form-column {
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  
+  /* Style form labels */
+  .form-column label {
+    display: block;
+    font-weight: normal;
+  }
+  
+ 
+  .form-column input[type="text"],
+  .form-column input[type="email"],
+  .form-column input[type="file"],
+  .form-column select,
+  .form-column textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+ 
+  .form-column input[type="radio"],
+  .form-column input[type="checkbox"] {
+    margin-right: 5px;
+    font-weight: normal;
+  }
+  
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the message paragraph */
+  .aa {
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  /* Style the "Know More" link */
+  a {
+    color: #050505;
+    text-decoration: none;
+    
+  }
+  
+  /* Hover effect for the "Know More" link */
+  a:hover {
+    text-decoration: underline;
+  }
+  .popup {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 500px;
+    padding-left: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 5px 0;
+  }
+  .popups{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 500px;
+    padding-left: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 5px 0; 
+  }
+  .popup a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight:normal;
+  }
+  
+  .popup a:hover {
+    background-color: #ddd;
+  }
+  
+ 
+  .popup a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight:normal;
+  }
+  
+  .popup a:hover {
+    background-color: #ddd;
+  }
+  .popup {
+    display: none; /* Initially hide the popup */
+    /* Add other necessary styles */
+  }
+  
+.package-popup {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+  font-weight:normal;
+}
+
+.package-popup p {
+  font-weight: bold;
+}
+
+.package-popup ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.package-popup li {
+  margin: 5px 0;
+}
+
+/* Customize further if needed */
+/* styles.css */
+
+.form-column {
+  margin-bottom: 20px; /* Add margin between form columns if needed */
+}
+
+.paragraph-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad, .ba, .ca {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 15px; /* Adjust the margin as needed */
+}
+.development-list{
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 500px;
+padding-left: 50px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+z-index: 1;
+margin: 5px 0;
+}

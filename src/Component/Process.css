@@ -1,0 +1,68 @@
+.nam1 {
+    background-image: url('./TIMEIMAGE/namm.jpg'); /* Set the path to your image */
+    width: 1200px;
+    height: 500px;
+    background-size: cover; /* Adjust background properties as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .corporate-containerb{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .left-sideb {
+    width: 38%; /* Adjust as needed for your layout */
+    
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 250px;
+    margin-left: 350px;
+  }
+  
+  .left-boxb {
+    background-color: palevioletred;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: rgb(247, 247, 247);
+   width: 400px;
+   height: 60px;
+   margin-right:500px;
+  
+  }
+  
+  .popup.animalb {
+    display: block;
+    background-color:rgb(41, 119, 236);
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+  
+  }
+  
+  .popup.animalb ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .popup.animalb li {
+    margin: 5px 0;
+  }
+  
+  /* Position the left and right sides */
+  .left-side {
+    order: 1; /* To display on the left */
+  }
+  
+  .right-side {
+    order: 2; /* To display on the right */
+  }
+  .backb{
+    background-color: rgb(47, 154, 255);
+  }
